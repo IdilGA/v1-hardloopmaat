@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Hardloopmaatje App
 
-## Getting Started
+## Overzicht
 
-First, run the development server:
+Hardloopmaatje is een simpele mobiele applicatie die je helpt bij het hardlopen door middel van audio-begeleiding.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Wat de App Laat Zien
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Startscherm**: Een eenvoudige interface om je hardloopsessie te starten
+- **Hardloopgegevens**: Weergave van je huidige tempo, afstand en tijd
+- **Audiobediening**: Knoppen om de geluiden aan te passen of te pauzeren
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Functionaliteit
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Audio-begeleiding**: De app geeft geluidssignalen tijdens het hardlopen
+- **Tempo-tracking**: Houdt je hardlooptempo bij en geeft feedback
+- **Simpele bediening**: Gemakkelijk te gebruiken interface, zelfs tijdens het hardlopen
 
-## Learn More
+## Speciale Geluidsfunctie
 
-To learn more about Next.js, take a look at the following resources:
+De app is gekoppeld met speciale geluiden die:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Je informeren over je huidige tempo
+- Je motiveren tijdens je hardloopsessie
+- Signalen geven bij het bereiken van afstandsdoelen
